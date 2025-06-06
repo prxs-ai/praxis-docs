@@ -57,7 +57,7 @@ ExampleAgent implements the standard agent pattern with:
    - Configuration management
 
 ## Component Diagram
-See [`architecture.puml`](./architecture.puml) showing:
+See [`example_agent_diagram`](images/diagrams/example_agent.png) showing:
 - Public FastAPI interface
 - Ray Serve deployment structure
 - Internal SubAgent component
@@ -108,7 +108,7 @@ Returns processed workflow results
 
 # Diagram
 
-![img.png](images/diagrams/img.png)
+![img.png](images/diagrams/example_agent.png)
 
 # Example workflow
 ```
