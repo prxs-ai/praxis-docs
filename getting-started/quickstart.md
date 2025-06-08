@@ -1,23 +1,44 @@
----
-icon: bullseye-arrow
----
+# 🚀 Quickstart Guide
 
-# Quickstart
+Welcome to **Praxis**, the decentralized agent mesh network. This guide helps you get started with building **autonomous AI agents**, integrating **AI models as providers**, and creating **modular tools** — all designed to run in a peer-to-peer, privacy-first, and token-incentivized environment.
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-hero.png" alt=""><figcaption></figcaption></figure>
+## 🎯 Quick Reference
 
-Beautiful documentation starts with the content you create — and GitBook makes it easy to get started with any pre-existing content.
+| Component | Purpose                         | Prerequisites                        | Setup Time |
+|-----------|----------------------------------|--------------------------------------|------------|
+| Agent     | Autonomous mesh-native services | Python 3.10–3.13, Poetry, Docker     | ~5 mins    |
+| Provider  | Model integrations              | Python 3.10–3.13, Poetry, GitHub     | ~5 mins    |
+| Tool      | Modular task-specific logic     | Python 3.10–3.13, pip, GitHub        | ~5 mins    |
+
+## 🌐 Getting Started in the Mesh
+
+1. **Choose Your Role**
+   - Start with **Agents** to explore mesh coordination and A2A protocols
+   - Use **Providers** to expose models or data to the network
+   - Build **Tools** for reusable logic that agents can call
+
+2. **Set Up Your Environment**
+   ```bash
+   # Install Poetry (Python package manager)
+   curl -sSL https://install.python-poetry.org | python3 -
+
+3. **Clone the Agent Template**
+
+   ```bash
+   git clone https://github.com/praxis-ecosystem/praxis-agent-template
+   cd praxis-agent-template
+   poetry install
+   poetry run serve run entrypoint:app
+   ```
+
+   Your agent will be live at `http://localhost:8000` with full MCP compatibility.
+
+## 💡 Tips for Success
+
+* **Start with an Agent** to experience real-time A2A communication
+* **Use a Provider** to monetize compute or model endpoints
+* **Build Tools** to enrich agent capabilities with shared logic
 
 {% hint style="info" %}
-Want to learn about writing content from scratch? Head to the [Basics](https://github.com/GitbookIO/onboarding-template/blob/main/getting-started/broken-reference/README.md) section to learn more.
+Need support or want to contribute? Join the community on Discord or explore the [Praxis GitHub](https://github.com/prxs-ai).
 {% endhint %}
-
-### Import
-
-GitBook supports importing content from many popular writing tools and formats. If your content already exists, you can upload a file or group of files to be imported.
-
-<div data-full-width="false"><figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-import.png" alt=""><figcaption></figcaption></figure></div>
-
-### Sync a repository
-
-GitBook also allows you to set up a bi-directional sync with an existing repository on GitHub or GitLab. Setting up Git Sync allows you and your team to write content in GitBook or in code, and never have to worry about your content becoming out of sync.
