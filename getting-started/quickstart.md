@@ -1,23 +1,147 @@
----
-icon: bullseye-arrow
----
+# 🚀 Quickstart
 
-# Quickstart
+Get your Praxis agent running locally in under 5 minutes.
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-hero.png" alt=""><figcaption></figcaption></figure>
+## 📋 Prerequisites
 
-Beautiful documentation starts with the content you create — and GitBook makes it easy to get started with any pre-existing content.
+- Python 3.10-3.13
+- Poetry (for dependency management)
+- Docker (for Redis only)
+
+## ⚡ Quick Start
+
+### 1. Clone and Install
+
+```bash
+git clone https://github.com/your-org/praxis-agent-template
+cd praxis-agent-template
+poetry install
+```
+
+### 2. Start Redis
+
+```bash
+docker-compose up redis -d
+```
 
 {% hint style="info" %}
-Want to learn about writing content from scratch? Head to the [Basics](https://github.com/GitbookIO/onboarding-template/blob/main/getting-started/broken-reference/README.md) section to learn more.
+Redis is required for the agent's memory system. We use Docker for convenience, but you can run Redis however you prefer.
 {% endhint %}
 
-### Import
+### 3. Run Your Agent
 
-GitBook supports importing content from many popular writing tools and formats. If your content already exists, you can upload a file or group of files to be imported.
+```bash
+OPENAI_API_KEY=your-key-here REDIS_HOST=localhost poetry run serve run entrypoint:app
+```
 
-<div data-full-width="false"><figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-import.png" alt=""><figcaption></figcaption></figure></div>
+{% hint style="success" %}
+**That's it!** Your agent is now running at `http://localhost:8000`
+{% endhint %}
 
-### Sync a repository
+## 🧪 Test Your Agent
 
-GitBook also allows you to set up a bi-directional sync with an existing repository on GitHub or GitLab. Setting up Git Sync allows you and your team to write content in GitBook or in code, and never have to worry about your content becoming out of sync.
+Open your browser to `http://localhost:8000/docs` to see the FastAPI interface and test your agent.
+
+## 🔧 Configuration
+
+### Environment Variables
+
+| Variable           | Required | Default   | Description                                              |
+| ------------------ | -------- | --------- | -------------------------------------------------------- |
+| `OPENAI_API_KEY` | ✅       | -         | Your OpenAI API key                                      |
+| `REDIS_HOST`     | ✅       | `redis` | Redis hostname (use `localhost` for local development) |
+| `REDIS_PORT`     | ❌       | `6379`  | Redis port                                               |
+
+### Custom Configuration
+
+Create a `.env` file in the project root:
+
+```bash
+OPENAI_API_KEY=sk-...
+REDIS_HOST=localhost
+REDIS_PORT=6379
+```
+
+Then run with:
+
+```bash
+poetry run serve run entrypoint:app
+```
+
+## 🐳 Docker Alternative
+
+{% hint style="warning" %}
+**Docker is optional** - the above local installation is the recommended approach for development.
+{% endhint %}
+
+The included Dockerfile is provided for convenience if you need to:
+
+- Install system-level packages (databases, tools, etc.)
+- Create reproducible deployment environments
+- Package your agent for distribution
+
+**For most development work, skip Docker and use the local setup above.**
+
+If you do want to use Docker for your entire stack:
+
+```bash
+# Build the agent image
+docker-compose build
+
+# Run everything
+OPENAI_API_KEY=your-key-here docker-compose up
+```
+
+## 🎯 Next Steps
+
+- **[Agent Development](./development.md)** - Learn how to customize your agent
+- **[Tools Integration](./tools.md)** - Add custom tools and capabilities
+- **[Deployment](./deployment.md)** - Deploy to production
+- **[Examples](./examples.md)** - See real-world agent implementations
+
+## 🚨 Troubleshooting
+
+### Common Issues
+
+**❌ `serve: command not found`**
+
+```bash
+# Use poetry run
+poetry run serve run entrypoint:app
+```
+
+**❌ `ValidationError: openai_api_key Field required`**
+
+```bash
+# Set your OpenAI API key
+export OPENAI_API_KEY=sk-your-key-here
+```
+
+**❌ `ConnectionError: Error while reading from redis:6379`**
+
+```bash
+# Set Redis host for local development
+export REDIS_HOST=localhost
+```
+
+**❌ Redis connection refused**
+
+```bash
+# Make sure Redis is running
+docker-compose up redis -d
+# Or install Redis locally: brew install redis && redis-server
+```
+
+## 💡 FAQ
+
+**Do I need Docker?**
+No! Docker is only used for Redis in this quickstart. You can install Redis locally or use a managed Redis service.
+
+**Do I need a Dockerfile for my agent?**
+No! The Dockerfile in this template is optional. Your agent runs perfectly with just `poetry install` and the local Python environment. The Dockerfile is only provided as an example if you want to:
+
+- Install additional system packages (like `curl`, `git`, etc.)
+- Create a containerized deployment
+- Add custom system-level dependencies
+
+For most use cases, the local Poetry installation is the recommended approach.
