@@ -92,13 +92,6 @@ docker-compose build
 OPENAI_API_KEY=your-key-here docker-compose up
 ```
 
-## 🎯 Next Steps
-
-- **[Agent Development](./development.md)** - Learn how to customize your agent
-- **[Tools Integration](./tools.md)** - Add custom tools and capabilities
-- **[Deployment](./deployment.md)** - Deploy to production
-- **[Examples](./examples.md)** - See real-world agent implementations
-
 ## 🚨 Troubleshooting
 
 ### Common Issues
