@@ -2,6 +2,15 @@
 
 Welcome to **Praxis**, the decentralized agent mesh network. This guide helps you get started with building **autonomous AI agents**, integrating **AI models as providers**, and creating **modular tools** — all designed to run in a peer-to-peer, privacy-first, and token-incentivized environment.
 
+## 📦 Core Components
+
+### 1. Agents
+**Build Agents to:**
+- Create autonomous services that discover and collaborate with others
+- Delegate tasks, use tools, and form swarm intelligence clusters
+- Deploy fully decentralized FastAPI applications with MCP (Model Context Protocol) support
+
+
 ## 🎯 Quick Reference
 
 | Component | Purpose                         | Prerequisites                        | Setup Time |
