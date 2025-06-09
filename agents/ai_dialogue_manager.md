@@ -172,6 +172,7 @@ You are an assistant summarizing messages in a chat...
 - Telegram auth failures provide step-by-step recovery
 
 # Diagram
+
 ![ai_dialogue_manager.png](images/diagrams/ai_dialogue_manager.png)
 
 # Example workflow

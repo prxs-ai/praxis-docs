@@ -149,6 +149,7 @@ export ENSO_API_KEY="your-enso-api-key"
 ```
 
 # Diagram
+
 ![ai_apy_pool_agent.png](images/diagrams/ai_apy_pool_agent.png)
 
 # Example workflow

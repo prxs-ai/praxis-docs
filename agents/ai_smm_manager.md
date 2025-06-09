@@ -124,6 +124,7 @@ Searches Grok AI for tweets
 | API retries | 5 attempts |
 
 # Diagram
+
 ![ai_smm_manager.png](images/diagrams/ai_smm_manager.png)
 
 # Example workflow

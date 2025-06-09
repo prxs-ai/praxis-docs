@@ -70,7 +70,7 @@ AsyncCryptoAISystem implements a complete market analysis pipeline with:
    - Market commentary
 
 ## Component Diagram
-See [`ai_predicts_manager_diagram`](./images/diagram/ai_predicts_manager.png) showing:
+See [`ai_predicts_manager_diagram`](./images/diagrams/ai_predicts_manager.png) showing:
 - Data collection components
 - Analysis modules
 - AI integration
@@ -140,6 +140,7 @@ Comprehensive technical analysis
 ```
 
 # Diagram
+
 ![ai_predicts_manager.png](images/diagrams/ai_predicts_manager.png)
 
 # Example workflow

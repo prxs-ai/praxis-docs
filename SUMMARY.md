@@ -31,8 +31,22 @@
 * [Creativity Agent](agents/creativity_agent.md)
 * [Example Agent](agents/example-agent.md)
 * [Follow-Unfollow Agent](agents/follow_unfollow_bot.md)
+* [KOI Agent](agents/kol_agent.md)
+* [Persona Agent](agents/persona_agent.md)
+* [Solana Pairs Agent](agents/solana_new_pairs_agent.md)
+* [Telegram Listener Agent](agents/telegram_listener_agent.md)
 * [Telegram Summarizer Agent](agents/ai_dialogue_manager.md)
+* [Tik Tok Agent](agents/tik_tok_agent.md)
+* [Twitter Ambassador Commentator](agents/twitter_ambassador_commentator.md)
+* [Twitter Ambassador Comments Answerer](agents/twitter_ambassador_comments_answerer.md)
+* [Twitter Ambassador Gorilla Marketing](agents/twitter_ambassador_gorilla_marketing.md)
+* [Twitter Ambassador Mention Answerer](agents/twitter_ambassador_mention_answerer.md)
+* [Twitter Ambassador Posting Agent](agents/twitter_ambassador_posting_agent.md)
+* [Twitter Echo Bot](agents/twitter_echo_bot.md)
+* [Twitter Liker Agent](agents/twitter_liker_agent.md)
 * [Twitter Summarizer Agent](agents/ai_twitter_summary.md)
+* [Twitter Summarizer Agent V2](agents/twitter_summary_agent.md)
+* [Wallet Tracker Agent](agents/wallet_tracker_agent.md)
 
 ## Services
 
