@@ -29,5 +29,5 @@
 
 ## Services
 
-* [AI Registry](services/ai_registry/overview.md)
+* [AI Registry](services/ai-registry/ai-registry.md)
 * [Relay Service](services/relay-service/overview.md)
