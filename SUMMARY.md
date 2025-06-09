@@ -4,10 +4,9 @@
 
 ## Getting Started
 
-* [Agent](getting-started/agent/quickstart.md)
-  * [FAQ](getting-started/agent/faq.md)
-  * [Contribution](getting-started/agent/contributing.md)
-* [Tool](getting-started/tool/quickstart.md)
+* [Quickstart](getting-started/quickstart.md)
+* [FAQ](getting-started/faq.md)
+* [Contribution](getting-started/contributing.md)
 
 ## Core Concepts
 
