@@ -37,22 +37,6 @@ This design lets you compose small, focused services that collaborate—rather t
 
 ## 3. Startup & Discovery
 
-```mermaid
-sequenceDiagram
-  participant Agent
-  participant Relay
-  participant Registry
-
-  Note over Agent: on startup
-  Agent->>Relay: Start Circuit Relay listener
-  Agent->>Registry: POST /register { peer_id, addrs }
-  Registry-->>Agent: 200 OK
-  Agent->>Registry: GET /peers
-  Registry-->>Agent: [ peer list ]
-  Agent->>Relay: RESERVE relay resources
-  Relay-->>Agent: STATUS OK
-```
-
 1. **Relay Listen** – agent brings up a libp2p listener  
 2. **Register** – agent tells the Registry its peer ID and addresses  
 3. **Discover** – agent fetches a list of known peers  

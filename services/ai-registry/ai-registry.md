@@ -41,32 +41,6 @@ A background **Celery worker** regularly fetches new or updated agent/tool packa
 5. Embeddings are generated and stored in Qdrant for semantic search.
 6. At runtime, agents and services use `/find` endpoints to retrieve the most relevant agent or tool.
 
-```mermaid
-sequenceDiagram
-    participant Dev as Developer
-    participant CI as CI Pipeline
-    participant PyPI as Praxis PyPI Registry
-    participant Celery as Celery Sync Worker
-    participant Registry as AI Registry
-    participant Qdrant as Vector DB
-    participant Client as Other Agents/Services
-
-    Dev->>CI: Push agent/tool to main
-    CI->>PyPI: Publish package
-    Celery->>PyPI: Poll for new packages
-    Celery->>Registry: POST /register-agent (name, version, FunctionSpec)
-    Registry->>Qdrant: Generate and store embedding
-    Registry-->>Celery: 201 Created
-
-    Client->>Registry: POST /find (query)
-    Registry->>Qdrant: Vector similarity search
-    Qdrant-->>Registry: Most relevant FunctionSpec
-    Registry-->>Client: 200 OK (FunctionSpec)
-
-    Client->>Agent: POST /run (formatted using FunctionSpec)
-    Agent-->>Client: Result
-```
-
 ---
 
 ## Architecture Diagrams
