@@ -21,15 +21,13 @@
 
 ## Agents
 
-* Overview
-  * [APY Agent](agents/ai_apy_pool_agent.md)
-  * [AI Avatar](agents/ai_avatar.md)
-  * [Telegram Summarizer Agent](agents/ai_dialogue_manager.md)
-  * [Async Crypto AI System](agents/ai_predicts_manager.md)
-  * [Example Agent](agents/example-agent.md)
+* [APY Agent](agents/ai_apy_pool_agent.md)
+* [AI Avatar](agents/ai_avatar.md)
+* [Telegram Summarizer Agent](agents/ai_dialogue_manager.md)
+* [Async Crypto AI System](agents/ai_predicts_manager.md)
+* [Example Agent](agents/example-agent.md)
 
 ## Services
 
-* Overview
-  * [AI Registry](services/ai_registry/overview.md)
-  * [Relay Service](services/relay-service/overview.md)
+* [AI Registry](services/ai-registry/ai-registry.md)
+* [Relay Service](services/relay-service/overview.md)
