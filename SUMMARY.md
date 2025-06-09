@@ -25,7 +25,6 @@
 * [APY Agent V2](agents/apy_agent.md)
 * [Async Crypto AI System](agents/ai_predicts_manager.md)
 * [AI Avatar](agents/ai_avatar.md)
-* [AI Predicts Manager](agents/ai_predicts_manager.md)
 * [AI SMM Manager](agents/ai_smm_manager.md)
 * [AI Dialogue Manager](agents/dialogue_manager.md)
 * [Base Agent](agents/base_agent.md)
