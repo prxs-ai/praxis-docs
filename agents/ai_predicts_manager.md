@@ -139,10 +139,10 @@ Comprehensive technical analysis
 }
 ```
 
-#Diagram
-![img.png](images/diagrams/ai_predicts_manager.png)
+# Diagram
+![ai_predicts_manager.png](images/diagrams/ai_predicts_manager.png)
 
-#Example workflow
+# Example workflow
 ```python
 import asyncio
 from ai_predicts_manager.main import AsyncCryptoAISystem

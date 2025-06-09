@@ -78,7 +78,7 @@ See [`ai_avatar_diagram`](images/diagrams/ai_avatar.png) for a high-level sequen
 
 - Manual style refresh via /new_style
 
-##Error Handling
+## Error Handling
 - Redis failures: Continue without cached context
 
 - OpenAI errors: Return user-friendly message
@@ -184,10 +184,10 @@ export REDIS_PORT="6379"
 export REDIS_DB="0"
 ```
 
-#Diagram
-![img.png](images/diagrams/ai_avatar.png)
+# Diagram
+![ai_avatar.png](images/diagrams/ai_avatar.png)
 
-#Example workflow
+# Example workflow
 ```
 #!/bin/bash
 # AI Avatar - Basic Interaction Example

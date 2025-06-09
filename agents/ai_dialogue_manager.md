@@ -171,10 +171,10 @@ You are an assistant summarizing messages in a chat...
 - Redis errors trigger fallback to memory storage
 - Telegram auth failures provide step-by-step recovery
 
-#Diagram
-![img.png](images/diagrams/ai_dialogue_manager.png)
+# Diagram
+![ai_dialogue_manager.png](images/diagrams/ai_dialogue_manager.png)
 
-#Example workflow
+# Example workflow
 ```
 #!/bin/bash
 # Telegram Summarizer - End-to-End Example

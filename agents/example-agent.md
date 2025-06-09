@@ -108,7 +108,7 @@ Returns processed workflow results
 
 # Diagram
 
-![img.png](images/diagrams/example_agent.png)
+![example_agent.png](images/diagrams/example_agent.png)
 
 # Example workflow
 ```
