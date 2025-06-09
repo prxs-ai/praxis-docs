@@ -185,6 +185,7 @@ export REDIS_DB="0"
 ```
 
 # Diagram
+
 ![ai_avatar.png](images/diagrams/ai_avatar.png)
 
 # Example workflow
