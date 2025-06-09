@@ -5,13 +5,29 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+  * [FAQ](getting-started/faq.md)
+  * [Contribution](getting-started/contributing.md)
 
-## Core
+## Core Concepts
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Overview](core-concepts/overview.md)
+  * [Agents](core-concepts/agents.md)
+  * [Knowledge](core-concepts/knowledge.md)
+  * [Orchestration](core-concepts/orchestration.md)
+  * [Plugins](core-concepts/plugins.md)
+  * [Tools](core-concepts/tools.md)
+  * [Workflows](core-concepts/workflows.md)
+
+
+## Agents
+
+* [APY Agent](agents/ai_apy_pool_agent.md)
+* [AI Avatar](agents/ai_avatar.md)
+* [Telegram Summarizer Agent](agents/ai_dialogue_manager.md)
+* [Async Crypto AI System](agents/ai_predicts_manager.md)
+* [Example Agent](agents/example-agent.md)
+
+## Services
+
+* [AI Registry](services/ai_registry/overview.md)
+* [Relay Service](services/relay-service/overview.md)
