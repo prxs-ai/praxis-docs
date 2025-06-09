@@ -111,6 +111,7 @@ Returns a Markdown-formatted message in Telegram with pool details or an error m
 **Example Response:**
 
 ----
+```
 🏆 *Finded pools for investment:*
 
 • *ProtocolA*:
@@ -128,6 +129,7 @@ Returns a Markdown-formatted message in Telegram with pool details or an error m
 💰 *Tokens in pool:*
     - USDC: $1.00
     - ETH: $3,500.00
+```
 ---
 
 ## Configuration Reference
