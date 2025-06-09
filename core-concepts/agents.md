@@ -1,4 +1,7 @@
-Welcome to Praxis agent architecture that powers our SDK. This document gives you a high-level tour of how agents interact, discover each other, and cooperate to solve complex tasks in a fully decentralized way.
+# Agents
+
+Welcome to Praxis agent architecture that powers our SDK. 
+This document gives you a high-level tour of how agents interact, discover each other, and cooperate to solve complex tasks in a fully decentralized way.
 
 ## 1. What Is a Praxis Agent SDK?
 
