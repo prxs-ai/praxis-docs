@@ -35,10 +35,9 @@ Praxis (PRX) enables AI systems to assemble autonomously by leveraging a library
 ### Key Features
 
 * **Dual-Layer Knowledge Architecture**: Integrates shared and private data layers for optimal performance and security.
-* **Orchestrator**: Automatically composes and manages AI projects by selecting the best-suited modules.
-* **Marketplace**: Incentivizes innovation by allowing users to publish, discover, and monetize AI components.
-* **Recursive Composability**: Projects can be reused as components, enabling rapid scalability and versatility.
-* **Token Economy**: Utilizes $PRX to support project monetization and incentivize community engagement.
+* **Orchestrator**: Automatically composes and manages AI workflows by selecting the best-suited modules.
+* **AI Registry**: Incentivizes innovation by allowing users to publish, discover, and use AI components.
+* **Recursive Composability**: Workflows can be reused as components, enabling rapid scalability and versatility.
 
 ## Vision and Mission
 
