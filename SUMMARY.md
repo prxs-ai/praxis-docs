@@ -12,12 +12,11 @@
 
 * [Overview](core-concepts/overview.md)
   * [Agents](core-concepts/agents.md)
-  * [Knowledge](core-concepts/knowledge.md)
   * [Orchestration](core-concepts/orchestration.md)
-  * [Plugins](core-concepts/plugins.md)
+  * [Knowledge](core-concepts/knowledge.md)
   * [Tools](core-concepts/tools.md)
-  * [Workflows](core-concepts/workflows.md)
-
+  * [Workflows DSL](core-concepts/workflows.md)
+  * [Plugins](core-concepts/plugins.md)
 
 ## Agents
 
