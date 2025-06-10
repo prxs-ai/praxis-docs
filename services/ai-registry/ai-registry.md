@@ -41,31 +41,9 @@ A background **Celery worker** regularly fetches new or updated agent/tool packa
 5. Embeddings are generated and stored in Qdrant for semantic search.
 6. At runtime, agents and services use `/find` endpoints to retrieve the most relevant agent or tool.
 
-```mermaid
-sequenceDiagram
-    participant Dev as Developer
-    participant CI as CI Pipeline
-    participant PyPI as Praxis PyPI Registry
-    participant Celery as Celery Sync Worker
-    participant Registry as AI Registry
-    participant Qdrant as Vector DB
-    participant Client as Other Agents/Services
+### Sequence Diagram
 
-    Dev->>CI: Push agent/tool to main
-    CI->>PyPI: Publish package
-    Celery->>PyPI: Poll for new packages
-    Celery->>Registry: POST /register-agent (name, version, FunctionSpec)
-    Registry->>Qdrant: Generate and store embedding
-    Registry-->>Celery: 201 Created
-
-    Client->>Registry: POST /find (query)
-    Registry->>Qdrant: Vector similarity search
-    Qdrant-->>Registry: Most relevant FunctionSpec
-    Registry-->>Client: 200 OK (FunctionSpec)
-
-    Client->>Agent: POST /run (formatted using FunctionSpec)
-    Agent-->>Client: Result
-```
+![`ai_registry_sequence_diagram`](images/diagrams/ai_registry_sequence.png)
 
 ---
 
@@ -73,28 +51,7 @@ sequenceDiagram
 
 ### C4 Context Diagram
 
-```plantuml
-@startuml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
-
-Person(dev, "Developer")
-System_Boundary(praxis, "Praxis") {
-    System(ai_registry, "AI Registry", "Central registry for AI agents and tools")
-    System_Ext(agent_runtime, "Agent Runtime")
-    System_Ext(orchestrator, "Service Orchestrator")
-    System_Ext(pypi, "Praxis PyPI Registry")
-    System_Ext(qdrant, "Qdrant Vector DB")
-}
-
-Rel(dev, ai_registry, "Registers agents/tools")
-Rel(orchestrator, ai_registry, "Discovers agents/tools at runtime")
-Rel(agent_runtime, ai_registry, "Fetches specs")
-Rel(ai_registry, pypi, "Fetches specs via Celery")
-Rel(ai_registry, qdrant, "Stores embeddings")
-Rel(ai_registry, qdrant, "Performs vector search")
-
-@enduml
-```
+![`ai_registry_context_diagram`](images/diagrams/ai_registry_context.png)
 
 ---
 

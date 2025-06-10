@@ -41,7 +41,7 @@ Agents use `/register` to announce themselves to the relay service and `/peers` 
 
 ### Sequence Diagram
 
-See [`relay_sequence_diagram`](images/diagrams/relay_service_sequence.png) for a high-level peer registration and discovery flow.
+![`relay_sequence_diagram`](images/diagrams/relay_service_sequence.png)
 
 ---
 
@@ -49,7 +49,7 @@ See [`relay_sequence_diagram`](images/diagrams/relay_service_sequence.png) for a
 
 ### C4 Context Diagram
 
-See [`relay_context_diagram`](images/diagrams/relay_service_context.png) for a high-level architectural overview of agent-to-agent communication and TCP relay configuration.
+![`relay_context_diagram`](images/diagrams/relay_service_context.png)
 
 ---
 
