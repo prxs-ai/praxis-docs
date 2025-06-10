@@ -22,8 +22,7 @@ This design lets you compose small, focused services that collaborate—rather t
 
 ### 2.2 AI Registry
 - Central directory where agents register (`POST /register`)  
-- Allows agents to discover peers (`GET /peers`)  
-- Can be swapped out for a P2P DHT in future  
+- Allows agents to discover peers (`GET /peers`)
 
 ### 2.3 Relay Service  
 - A libp2p Circuit Relay that lets agents behind NAT/firewall connect  
@@ -31,7 +30,7 @@ This design lets you compose small, focused services that collaborate—rather t
 - Provides a globally reachable transport without a fixed IP  
 
 ### 2.4 Tools & Workflows  
-- Tools are defined by a separate python packages
+- Tools are defined by a separate python packages, which can be installed dynamically by agent.
 - Workflows are plans (DAGs) of ordered steps invoking tools or peers  
 - Praxis workflow orchestration engine handles retries, isolation, and dynamic dependency installs  
 
