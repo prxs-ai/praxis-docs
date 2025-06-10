@@ -61,4 +61,6 @@ Praxis exists to provide **infrastructure for decentralized AI coordination** �
 
 Whether you’re an agent developer, tool builder, data provider, or knowledge contributor — Praxis gives you the building blocks to create a new class of AI-native applications. Start by exploring our templates, APIs, and SDKs — or join the community to help shape the future of decentralized intelligence.
 
+> 🛠️ **Ready to build?** [Get started in 5 minutes](getting-started/quickstart/)
+
 Welcome to the **Decentralized Agent Mesh** — welcome to **Praxis**.
