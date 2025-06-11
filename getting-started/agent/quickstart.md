@@ -1,4 +1,4 @@
-# 🚀 Quickstart
+# 🚀 Agent Quickstart
 
 Get your Praxis agent running locally in under 5 minutes.
 
