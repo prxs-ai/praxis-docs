@@ -140,6 +140,79 @@ docker run your-agent-image
 
 ---
 
+## 🛠️ Tools vs Agents - What's the difference?
+
+{% hint style="info" %}
+**Understanding the distinction between Praxis Tools and Agents helps you choose the right approach for your project.**
+{% endhint %}
+
+### 🤖 **Agents** (what this FAQ covers)
+
+{% tabs %}
+{% tab title="🎯 Purpose" %}
+- **Complex, stateful entities** that can use multiple tools
+- **Conversational interfaces** with memory and context
+- **Web APIs** using Ray Serve for persistent services
+- **Multi-step workflows** and decision making
+{% endtab %}
+
+{% tab title="🔧 Tech Stack" %}
+- **Ray Serve** for web API hosting
+- **Poetry** for dependency management  
+- **Redis** for memory and state storage
+- **FastAPI** integration for REST endpoints
+{% endtab %}
+
+{% tab title="💡 Examples" %}
+- Chatbots and virtual assistants
+- Workflow orchestrators
+- Multi-tool decision engines
+- Customer service agents
+{% endtab %}
+{% endtabs %}
+
+### 🛠️ **Tools** (distributed functions)
+
+{% tabs %}
+{% tab title="🎯 Purpose" %}
+- **Focused, single-purpose functions** that process data
+- **Stateless operations** with clear input/output
+- **Distributed execution** using Ray for scaling
+- **Building blocks** that agents can use
+{% endtab %}
+
+{% tab title="🔧 Tech Stack" %}
+- **Ray** (not Ray Serve) for distributed execution
+- **Pydantic** for input/output validation
+- **pip** for simpler dependency management
+- **Entry points** for tool discovery
+{% endtab %}
+
+{% tab title="💡 Examples" %}
+- Data processors and transformers
+- API integrations and connectors
+- Utility functions and calculators
+- Content generators and analyzers
+{% endtab %}
+{% endtabs %}
+
+### 🤔 **Which should I choose?**
+
+| Use Case | Choose | Why |
+|----------|---------|-----|
+| **Need persistent state/memory** | Agent | Agents maintain context across interactions |
+| **Simple data processing** | Tool | Tools are lightweight and focused |
+| **Web API endpoint** | Agent | Agents use Ray Serve for HTTP services |
+| **Function used by other systems** | Tool | Tools are designed to be building blocks |
+| **Complex decision making** | Agent | Agents can orchestrate multiple tools |
+| **Single transformation** | Tool | Tools excel at focused operations |
+
+{% hint style="success" %}
+**Getting started with Tools?** Check out the [Tool Quickstart](../tool/quickstart.md) guide!
+{% endhint %}
+
+---
+
 ## 🆘 Getting Help
 
 {% hint style="warning" %}
