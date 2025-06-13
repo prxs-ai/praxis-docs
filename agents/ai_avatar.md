@@ -3,6 +3,7 @@
 ## Purpose & Scope
 AIAvatar is a Telegram bot that uses the OpenAI API to provide conversational responses, adapting to the user's messaging style by analyzing their recent messages and storing context in Redis.
 
+
 ## Prerequisites
 - Python 3.10+
 - Telegram API credentials (API_ID and API_HASH from my.telegram.org)
