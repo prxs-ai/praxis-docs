@@ -1,0 +1,10 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(user, "User/Agent")
+System(tool, "Redis Client")
+System_Ext(redis, "Redis Server")
+
+Rel(user, tool, "Calls operations")
+Rel(tool, redis, "SET/GET/ZADD/etc")
+@enduml

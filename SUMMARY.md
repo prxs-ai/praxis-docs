@@ -47,6 +47,20 @@
 * [Twitter Summarizer Agent V2](agents/twitter_summary_agent.md)
 * [Wallet Tracker Agent](agents/wallet_tracker_agent.md)
 
+## Tools
+* [Airdrop Bot](tools/airdrop_bot.md)
+* [Arbitrage Bot](tools/arbitrage_bot.md)
+* [Handoff Tool](tools/handoff_tool.md)
+* [OpeanAI Request](tools/openai_request.md)
+* [Provider Contract Tool](tools/provider_contract_tool.md)
+* [Provider Query Tool](tools/provider_query_tool.md)
+* [Provider Subscribe Tool](tools/provider_subscribe_tool_async.md)
+* [Query Knowledge Tool](tools/query_knowledge_tool.md)
+* [Redis Client Tool](tools/redis_client.md)
+* [Return Answer Tool](tools/return_answer_tool.md)
+* [Save Knowledge Tool](tools/save-knowledge-tool.md)
+
+
 ## Services
 
 * [AI Registry](services/ai-registry/ai-registry.md)

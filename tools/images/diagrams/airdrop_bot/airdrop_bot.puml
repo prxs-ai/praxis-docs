@@ -1,0 +1,20 @@
+@startuml airdrop_bot_context
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(user, "Crypto User", "Watches for airdrops")
+System(bot, "Airdrop Bot", "Monitors and processes announcements")
+System(tg, "Telegram", "Message platform")
+System(binance, "Binance", "Announcements website")
+
+Rel(user, tg, "Reads messages")
+Rel(tg, bot, "New message events")
+Rel(bot, binance, "Scrapes announcements")
+Rel(bot, tg, "Sends processed alerts")
+
+note right of bot
+  Processing:
+  1. AI filtering
+  2. Symbol marking
+  3. Summarization
+end note
+@enduml

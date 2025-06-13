@@ -1,0 +1,10 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(user, "User")
+System(tool, "Query Tool")
+System_Ext(kb, "Knowledge Base")
+
+Rel(user, tool, "Text query")
+Rel(tool, kb, "POST /query")
+@enduml

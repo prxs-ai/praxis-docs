@@ -1,0 +1,19 @@
+@startuml arbitrage_bot_architecture
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+System(cex, "CEX APIs", "Binance, Bybit, MEXC")
+System(dex, "DEX Protocols", "Uniswap")
+System(bot, "Arbitrage Bot", "Core monitoring system")
+System(tg, "Telegram", "User interface")
+
+Rel(cex, bot, "REST API", "Price data")
+Rel(dex, bot, "Ethereum RPC", "Pool queries")
+Rel(bot, tg, "Bot API", "Alerts")
+
+note right of bot
+  Processing:
+  1. Price comparison
+  2. Opportunity scoring
+  3. Alert generation
+end note
+@enduml

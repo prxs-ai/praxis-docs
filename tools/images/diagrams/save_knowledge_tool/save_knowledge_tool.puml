@@ -1,0 +1,20 @@
+@startuml save_knowledge_tool_context
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+title SaveKnowledgeTool - Context Diagram
+
+Person(user, "User/Agent", "Sends text snippets for storage")
+System(save_tool, "Save Knowledge Tool", "Handles knowledge persistence")
+System(knowledge_base, "LightRAG KB", "Praxis's knowledge storage")
+
+Rel(user, save_tool, "Submits texts", "HTTP POST")
+Rel(save_tool, knowledge_base, "Inserts data", "REST API")
+
+note right of save_tool
+  Features:
+  - Retry mechanism
+  - Input validation
+  - Ray integration
+end note
+
+@enduml
