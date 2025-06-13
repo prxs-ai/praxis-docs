@@ -1,0 +1,20 @@
+@startuml openai_request_context
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+title OpenAI Request Tool - Context Diagram
+
+Person(user, "User/Agent", "Submits chat prompts")
+System(request_tool, "OpenAI Request Tool", "Handles API communication")
+System(openai, "OpenAI API", "GPT model endpoints")
+
+Rel(user, request_tool, "Sends messages", "async")
+Rel(request_tool, openai, "Chat completions", "HTTPS")
+
+note right of request_tool
+  Features:
+  - Rate limit handling
+  - Exponential backoff
+  - Async I/O
+end note
+
+@enduml

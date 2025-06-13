@@ -1,0 +1,19 @@
+@startuml handoff_tool_context
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+Component(handoff, "Handoff Tool", "Routes tasks between agents")
+Component(caller, "Calling Agent", "Initiates handoff")
+Component(target, "Target Agent", "Processes handed-off tasks")
+
+Rel(caller, handoff, "Submits task", "JSON")
+Rel(handoff, target, "POST /{goal}", "HTTP")
+Rel(target, handoff, "Returns result", "JSON")
+Rel(handoff, caller, "Forwards response", "Validated")
+
+note right of handoff
+  Features:
+  - Configurable endpoints
+  - Automatic retries
+  - Ray compatibility
+end note
+@enduml

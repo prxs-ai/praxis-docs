@@ -1,0 +1,13 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(user, "User")
+System(tool, "Subscribe Tool")
+System_Ext(provider, "Event Provider")
+System_Ext(kafka, "Kafka Cluster")
+
+Rel(user, tool, "Init subscription")
+Rel(tool, provider, "POST /subscribe")
+Rel(provider, kafka, "Creates topic")
+Rel(user, kafka, "Consumes events", "async")
+@enduml
