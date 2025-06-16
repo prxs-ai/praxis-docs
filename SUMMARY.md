@@ -60,6 +60,8 @@
 * [Return Answer Tool](tools/return_answer_tool.md)
 * [Save Knowledge Tool](tools/save-knowledge-tool.md)
 
+## Data Providers
+* [Base Data Provider](providers/base_provider.md)
 
 ## Services
 
