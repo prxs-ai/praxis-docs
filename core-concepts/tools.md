@@ -2,6 +2,26 @@
 
 Tools are standalone Python packages that expose an entry point so the agent runtime can discover and execute them. Each workflow step references a tool by name and version. When the workflow runs, Ray installs the package on demand in an isolated environment.
 
+```mermaid
+sequenceDiagram
+    participant Workflow
+    participant DAGRunner
+    participant Ray
+    participant Tool
+    participant Entry Points
+
+    Workflow->>DAGRunner: Create step with tool reference
+    DAGRunner->>Ray: Configure runtime environment
+    Ray-->>DAGRunner: Environment ready
+    DAGRunner->>Entry Points: Load tool by package name
+    Entry Points-->>DAGRunner: Return tool callable
+    DAGRunner->>Ray: Create remote function
+    Ray->>Tool: Execute in isolated env
+    Tool-->>Ray: Return result
+    Ray-->>DAGRunner: Return step output
+    DAGRunner-->>Workflow: Continue execution
+```
+
 ## Implementing a Tool Package
 
 A tool package defines an entry point in its `pyproject.toml` under `tool.entrypoint`. The callable should return a Ray remote function that implements the tool logic. Because tools are regular Python packages they can be published and installed with `pip`.
