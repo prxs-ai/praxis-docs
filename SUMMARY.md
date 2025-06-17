@@ -4,7 +4,9 @@
 
 ## Getting Started
 
-* [Quickstart](getting-started/quickstart.md)
+* [Quickstart](getting-started/quickstart/README.md)
+  * [Agent](getting-started/agent/quickstart.md)
+  * [Tool](getting-started/tool/quickstart.md)
 * [FAQ](getting-started/faq.md)
 * [Contribution](getting-started/contributing.md)
 
@@ -49,8 +51,6 @@
 
 ## Tools
 
-* [Airdrop Bot](agents/airdrop_bot.md)
-* [Arbitrage Bot](agents/arbitrage_bot.md)
 * [Handoff Tool](tools/handoff_tool.md)
 * [OpenAI Request](tools/openai_request.md)
 * [Provider Contract Tool](tools/provider_contract_tool.md)
