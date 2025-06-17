@@ -4,7 +4,9 @@
 
 ## Getting Started
 
-* [Quickstart](getting-started/quickstart.md)
+* [Quickstart](getting-started/quickstart/README.md)
+  * [Agent](getting-started/agent/quickstart.md)
+  * [Tool](getting-started/tool/quickstart.md)
 * [FAQ](getting-started/faq.md)
 * [Contribution](getting-started/contributing.md)
 
@@ -48,6 +50,7 @@
 * [Wallet Tracker Agent](agents/wallet_tracker_agent.md)
 
 ## Tools
+
 * [Airdrop Bot](tools/airdrop_bot.md)
 * [Arbitrage Bot](tools/arbitrage_bot.md)
 * [Handoff Tool](tools/handoff_tool.md)
@@ -61,6 +64,8 @@
 * [Save Knowledge Tool](tools/save-knowledge-tool.md)
 
 ## Data Providers
+
+* [Base Data Provider](providers/base_provider.md)
 
 ## Services
 

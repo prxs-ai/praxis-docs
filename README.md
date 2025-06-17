@@ -1,11 +1,6 @@
 ---
 icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
 layout:
-  cover:
-    visible: true
-    size: full
   title:
     visible: true
   description:
@@ -26,7 +21,7 @@ Welcome to the Praxis (PRX) GitBook! This repository contains comprehensive docu
 
 Dive into the essentials with our step-by-step guides:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Quickstart</strong></td><td>Run a simple agent</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>FAQ</strong></td><td>Frequently Asked Questions</td><td></td><td></td><td><a href="getting-started/faq.md">faq.md</a></td></tr><tr><td><strong>Contributing</strong></td><td>Contribute to the project</td><td></td><td></td><td><a href="getting-started/contributing.md">contributing.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Quickstart</strong></td><td>Run a simple agent</td><td></td><td></td><td><a href="getting-started/quickstart/">quickstart</a></td></tr><tr><td><strong>FAQ</strong></td><td>Frequently Asked Questions</td><td></td><td></td><td><a href="getting-started/faq.md">faq.md</a></td></tr><tr><td><strong>Contributing</strong></td><td>Contribute to the project</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
 
 ## About Praxis (PRX)
 
