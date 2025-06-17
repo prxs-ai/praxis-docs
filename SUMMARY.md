@@ -19,6 +19,15 @@
   * [Tools](core-concepts/tools.md)
   * [Workflows DSL](core-concepts/workflows.md)
   * [Plugins](core-concepts/plugins.md)
+  * [Providers](core-concepts/providers.md)
+
+## Tokenomics
+
+* COMING SOON
+
+## RoadMap
+
+* [Overview](core-concepts/roadmap.md)
 
 ## Agents
 

@@ -31,18 +31,6 @@ KAFKA_BOOTSTRAP_URI=kafka://localhost:9092
 
 ## Core Architecture
 
-### Component Diagram
-```mermaid
-graph TD
-    Provider --> Contract
-    Provider --> Stream
-    Stream --> Sources
-    Stream --> Processors
-    Stream --> Sinks
-    Stream --> Triggers
-    Provider --> Runner
-```
-
 ### Data Flow
 1. **Initialization**: Provider builds contract and configures stream
 2. **Execution**: Runner processes data through sources → processors → sinks
