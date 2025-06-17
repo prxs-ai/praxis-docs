@@ -48,10 +48,11 @@
 * [Wallet Tracker Agent](agents/wallet_tracker_agent.md)
 
 ## Tools
+
 * [Airdrop Bot](agents/airdrop_bot.md)
 * [Arbitrage Bot](agents/arbitrage_bot.md)
 * [Handoff Tool](tools/handoff_tool.md)
-* [OpeanAI Request](tools/openai_request.md)
+* [OpenAI Request](tools/openai_request.md)
 * [Provider Contract Tool](tools/provider_contract_tool.md)
 * [Provider Query Tool](tools/provider_query_tool.md)
 * [Provider Subscribe Tool](tools/provider_subscribe_tool_async.md)
@@ -60,8 +61,9 @@
 * [Return Answer Tool](tools/return_answer_tool.md)
 * [Save Knowledge Tool](tools/save-knowledge-tool.md)
 
-## Data Providers
-* [Base Data Provider](providers/base_provider.md)
+## Providers
+
+* COMING SOON
 
 ## Services
 
