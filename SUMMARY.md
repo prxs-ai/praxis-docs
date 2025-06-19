@@ -4,9 +4,9 @@
 
 ## Getting Started
 
-* [Quickstart](getting-started/quickstart/README.md)
-  * [Agent](getting-started/agent/quickstart.md)
-  * [Tool](getting-started/tool/quickstart.md)
+* [Agent](getting-started/agent/quickstart.md)
+* [Tool](getting-started/tool/quickstart.md)
+* [Provider](getting-started/provider/quickstart.md)
 * [FAQ](getting-started/faq.md)
 * [Contribution](getting-started/contributing.md)
 
