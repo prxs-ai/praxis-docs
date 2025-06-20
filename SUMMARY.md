@@ -4,9 +4,10 @@
 
 ## Getting Started
 
-* [Agent](getting-started/agent/quickstart.md)
-* [Tool](getting-started/tool/quickstart.md)
-* [Provider](getting-started/provider/quickstart.md)
+* Quickstart
+  * [Agent](getting-started/agent/quickstart.md)
+  * [Tool](getting-started/tool/quickstart.md)
+  * [Provider](getting-started/provider/quickstart.md)
 * [FAQ](getting-started/faq.md)
 * [Contribution](getting-started/contributing.md)
 
@@ -18,6 +19,7 @@
   * [Knowledge](core-concepts/knowledge.md)
   * [Tools](core-concepts/tools.md)
   * [Workflows DSL](core-concepts/workflows.md)
+  * [Decentralized A2A](core-concepts/dA2A.md)
   * [Plugins](core-concepts/plugins.md)
   * [Providers](core-concepts/providers.md)
 
