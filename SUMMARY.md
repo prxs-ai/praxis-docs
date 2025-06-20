@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-* Quickstart
+* [Quickstart](getting-started/quickstart.md)
   * [Agent](getting-started/agent/quickstart.md)
   * [Tool](getting-started/tool/quickstart.md)
   * [Provider](getting-started/provider/quickstart.md)
