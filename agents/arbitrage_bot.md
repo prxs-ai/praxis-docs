@@ -19,20 +19,6 @@ asyncio.run(main())
 2. **Arbitrage Detection**: Calculates price differences in real-time
 3. **Reporting**: Sends alerts via Telegram bot
 
-### Monitoring Flow
-```mermaid
-sequenceDiagram
-    participant CEX
-    participant DEX
-    participant Bot
-    participant Telegram
-
-    Bot->>CEX: Fetch prices (every 5-300s)
-    Bot->>DEX: Query pool data
-    Bot->>Bot: Calculate arbitrage opportunities
-    Bot->>Telegram: Send alerts (/cex, /dex commands)
-```
-
 ## Source Code Links
 - Core Components:
   - [main.py](https://github.com/prxs-ai/praxis-tool-examples/blob/main/tools/arbitrage_bot/main.py) (Orchestration)

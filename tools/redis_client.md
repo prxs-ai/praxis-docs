@@ -30,28 +30,6 @@ recent_posts = db.get_user_posts("alice")
 3. **Structured Storage**: Specialized methods for Twitter data
 4. **Distributed Ready**: Ray-compatible entry points
 
-### Data Model
-```mermaid
-classDiagram
-    class Post {
-        +id: str
-        +text: str
-        +sender_username: str
-        +timestamp: int
-        +quoted_tweet_id: str?
-        +is_reply_to: str?
-        +is_news_summary_tweet: bool
-    }
-    
-    class RedisDB {
-        +add_user_post()
-        +get_user_posts()
-        +remove_account()
-        +get_active_twitter_accounts()
-        +get_function_variables()
-    }
-```
-
 ## Source Code Links
 - Key Files:
   - [main.py](https://github.com/prxs-ai/praxis-tool-examples/blob/main/tools/redis_client/src/redis_client/main.py) (Primary interface)
