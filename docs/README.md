@@ -1,5 +1,4 @@
 ---
-icon: hand-wave
 layout:
   title:
     visible: true
