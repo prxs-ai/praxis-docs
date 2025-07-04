@@ -1,6 +1,3 @@
----
-icon: heart-handshake
----
 # 🤝 Contributing
 
 We welcome contributions to Praxis! Whether you're fixing bugs, adding features, or improving documentation, your help makes the project better.

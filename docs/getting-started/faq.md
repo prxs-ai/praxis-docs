@@ -1,6 +1,3 @@
----
-icon: question-mark
----
 # ❓ FAQ
 
 Common questions about building and deploying Praxis agents.
