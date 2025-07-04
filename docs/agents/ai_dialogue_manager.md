@@ -57,7 +57,7 @@ The `TelegramSummarizer` is a Telethon-based agent that collects and summarizes 
 
 ## Component Diagram
 
-See [`ai_dialogue_manager_diagram`](./images/diagrams/ai_dialogue_manager.png) for the high-level flow including:
+See [`ai_dialogue_manager_diagram`](images/diagrams/ai_dialogue_manager.png) for the high-level flow including:
 - Telegram client connection via Telethon
 - Redis storage for message persistence
 - OpenAI API integration for summarization

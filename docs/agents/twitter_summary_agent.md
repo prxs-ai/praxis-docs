@@ -74,7 +74,7 @@ TweetProcessor implements a content pipeline with:
    - Error-resilient delivery
 
 ## Component Diagram
-See [`twitter_summary_agent_diagram`](./images/diagrams/twitter_summary_agent.png) for the high-level flow including:
+See [`twitter_summary_agent_diagram`](images/diagrams/twitter_summary_agent.png) for the high-level flow including:
 - API management interface
 - Background processing flow
 - External service integrations

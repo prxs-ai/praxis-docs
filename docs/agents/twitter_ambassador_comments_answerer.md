@@ -81,7 +81,7 @@ The `TwitterAmbassadorCommentsAnswerer` is a Ray Serve-based agent that automati
 
 ## Component Diagram
 
-See [`twitter_ambassador_comments_answerer_diagram`](./images/diagrams/twitter_ambassador_comments_answerer.png) for the high-level flow including:
+See [`twitter_ambassador_comments_answerer_diagram`](images/diagrams/twitter_ambassador_comments_answerer.png) for the high-level flow including:
 - FastAPI + Ray Serve deployment
 - External dependencies: Twitter API, OpenAI API, and Redis
 - Internal utilities: `twitter_ambassador_utils`, `tweetscout_utils`, and `redis_client`

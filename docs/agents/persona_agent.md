@@ -53,7 +53,7 @@ PersonaAgent is a FastAPI service that generates text (e.g., tweets) in the styl
 PersonaAgent combines vector search (Qdrant), persona storage (Redis), and text generation (OpenAI) to produce persona-specific content. It's deployed as a Ray Serve FastAPI application.
 
 ## Component Diagram
-See [`persona_agent_diagram`](./images/diagrams/persona_agent.png) showing:
+See [`persona_agent_diagram`](images/diagrams/persona_agent.png) showing:
 - Client interaction via FastAPI
 - Redis for persona metadata storage
 - Qdrant for tweet similarity search

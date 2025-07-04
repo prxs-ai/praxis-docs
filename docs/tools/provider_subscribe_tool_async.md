@@ -64,9 +64,9 @@ poetry install
 ## Architecture
 
 ### C4 Context
-See [`provider_subscribe_tool_async.puml`](./images/diagrams/provider_subscribe_tool_async/provider_subscribe_tool_async.puml) for a high-level sequence:
+See [`provider_subscribe_tool_async.puml`](images/diagrams/provider_subscribe_tool_async/provider_subscribe_tool_async.puml) for a high-level sequence:
 
-![provider_subscribe_tool_async.png](./images/diagrams/provider_subscribe_tool_async/provider_subscribe_tool_async.png)
+![provider_subscribe_tool_async.png](images/diagrams/provider_subscribe_tool_async/provider_subscribe_tool_async.png)
 
 ### Output Structure
 The tool returns strictly typed execution parameters:

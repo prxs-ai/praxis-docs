@@ -47,9 +47,9 @@ export OPENAI_API_KEY="sk-your-key-here"
 ## Architecture
 
 ### C4 Context
-See [`openai_request.puml`](./images/diagrams/openai_request/openai_request.puml) for a high-level sequence:
+See [`openai_request.puml`](images/diagrams/openai_request/openai_request.puml) for a high-level sequence:
 
-![openai_request.png](./images/diagrams/openai_request/openai_request.png)
+![openai_request.png](images/diagrams/openai_request/openai_request.png)
 
 ### Data Models
 ```python

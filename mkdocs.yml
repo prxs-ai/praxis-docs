@@ -1,0 +1,99 @@
+site_name: Praxis Dacs
+repo_url: https://github.com/prxs-ai/praxis-docs.git
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+
+docs_dir: docs
+strict: false
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - attr_list
+  - toc:
+      permalink: true
+
+nav:
+  - Home: README.md
+  - Getting Started:
+      - Quickstart: getting-started/quickstart.md
+      - FAQ: getting-started/faq.md
+      - Contributing: getting-started/contributing.md
+      - Agent:
+          - Quickstart: getting-started/agent/quickstart.md
+      - Provider:
+          - Quickstart: getting-started/provider/quickstart.md
+      - Tool:
+          - Quickstart: getting-started/tool/quickstart.md
+  - Core Concepts:
+      - Overview: core-concepts/overview.md
+      - Agents: core-concepts/agents.md
+      - dA2A: core-concepts/dA2A.md
+      - Knowledge: core-concepts/knowledge.md
+      - Orchestration: core-concepts/orchestration.md
+      - Plugins: core-concepts/plugins.md
+      - Providers: core-concepts/providers.md
+      - Tools: core-concepts/tools.md
+      - Workflows: core-concepts/workflows.md
+      - Roadmap: core-concepts/roadmap.md
+  - Agents:
+      - Base Agent: agents/base_agent.md
+      - Example Agent: agents/example-agent.md
+      - AI APY Pool Agent: agents/ai_apy_pool_agent.md
+      - AI Avatar: agents/ai_avatar.md
+      - AI Dialogue Manager: agents/ai_dialogue_manager.md
+      - AI Predicts Manager: agents/ai_predicts_manager.md
+      - AI SMM Manager: agents/ai_smm_manager.md
+      - AI Twitter Summary: agents/ai_twitter_summary.md
+      - APY Agent: agents/apy_agent.md
+      - Creativity Agent: agents/creativity_agent.md
+      - Dialogue Manager: agents/dialogue_manager.md
+      - Follow/Unfollow Bot: agents/follow_unfollow_bot.md
+      - KOL Agent: agents/kol_agent.md
+      - Persona Agent: agents/persona_agent.md
+      - Solana New Pairs Agent: agents/solana_new_pairs_agent.md
+      - Telegram Listener Agent: agents/telegram_listener_agent.md
+      - TikTok Agent: agents/tik_tok_agent.md
+      - Twitter Ambassador Commentator: agents/twitter_ambassador_commentator.md
+      - Twitter Ambassador Comments Answerer: agents/twitter_ambassador_comments_answerer.md
+      - Twitter Ambassador Gorilla Marketing: agents/twitter_ambassador_gorilla_marketing.md
+      - Twitter Ambassador Mention Answerer: agents/twitter_ambassador_mention_answerer.md
+      - Twitter Ambassador Posting Agent: agents/twitter_ambassador_posting_agent.md
+      - Twitter Echo Bot: agents/twitter_echo_bot.md
+      - Twitter Liker Agent: agents/twitter_liker_agent.md
+      - Twitter Summary Agent: agents/twitter_summary_agent.md
+      - Wallet Tracker Agent: agents/wallet_tracker_agent.md
+      - Airdrop Bot: agents/airdrop_bot.md
+      - Arbitrage Bot: agents/arbitrage_bot.md
+  - Tools:
+      - Handoff Tool: tools/handoff_tool.md
+      - OpenAI Request: tools/openai_request.md
+      - Provider Contract Tool: tools/provider_contract_tool.md
+      - Provider Query Tool: tools/provider_query_tool.md
+      - Provider Subscribe Tool Async: tools/provider_subscribe_tool_async.md
+      - Query Knowledge Tool: tools/query_knowledge_tool.md
+      - Redis Client: tools/redis_client.md
+      - Return Answer Tool: tools/return_answer_tool.md
+      - Save Knowledge Tool: tools/save-knowledge-tool.md
+  - Services:
+      - AI Registry:
+          - Overview: services/ai-registry/overview.md
+          - AI Registry: services/ai-registry/ai-registry.md
+      - Relay Service:
+          - Overview: services/relay-service/overview.md
+          - Relay: services/relay-service/relay.md

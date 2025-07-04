@@ -76,7 +76,7 @@ CreativityService acts as a gateway to Creatify's media generation API with:
    - Timeout management
 
 ## Component Diagram
-See [`creativity_agent_diagram`](./images/diagrams/creativity_agent.png) for the high-level flow including:
+See [`creativity_agent_diagram`](images/diagrams/creativity_agent.png) for the high-level flow including:
 - Client-facing FastAPI interface
 - Ray Serve deployment
 - Creatify API integration

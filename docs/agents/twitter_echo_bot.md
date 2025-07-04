@@ -73,7 +73,7 @@ FollowUnfollowBot combines scheduled tasks with API control for Twitter automati
    - API endpoints (manual control)
 
 ## Component Diagram
-See [`twitter_echo_bot_diagram`](./images/diagrams/twitter_echo_bot.png) for the high-level flow including:
+See [`twitter_echo_bot_diagram`](images/diagrams/twitter_echo_bot.png) for the high-level flow including:
 - FastAPI HTTP interface
 - Background workers
 - Twitter API integration

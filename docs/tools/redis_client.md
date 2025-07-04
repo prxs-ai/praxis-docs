@@ -82,9 +82,9 @@ db.update_account_last_action_time(username: str, action_type: str, ts: float)
 ## Architecture
 
 ### C4 Context
-See [`redis_client.puml`](./images/diagrams/redis_client/redis_client.puml) for a high-level sequence:
+See [`redis_client.puml`](images/diagrams/redis_client/redis_client.puml) for a high-level sequence:
 
-![redis_client.png](./images/diagrams/redis_client/redis_client.png)
+![redis_client.png](images/diagrams/redis_client/redis_client.png)
 
 
 ### Key Patterns

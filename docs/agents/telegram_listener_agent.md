@@ -57,7 +57,7 @@ TelegramListenerAgent monitors specified Telegram channels for new messages and 
 TelegramListenerAgent is a Ray Serve deployment that monitors Telegram channels using Telethon library. It provides real-time message processing with automatic reconnection capabilities through a FastAPI control interface.
 
 ## Component Diagram
-See [`telegram_listener_agent_diagram`](./images/diagrams/telegram_listener_agent.png) showing:
+See [`telegram_listener_agent_diagram`](images/diagrams/telegram_listener_agent.png) showing:
 
 - Telegram MTProto server connection
 - FastAPI control plane

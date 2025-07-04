@@ -60,7 +60,7 @@ BaseAgent implements the core agent pattern with:
    - Handoff protocol - Task delegation
 
 ## Component Diagram
-See [`base_agent_diagram`](./images/diagrams/base_agent.png) for the high-level flow including:
+See [`base_agent_diagram`](images/diagrams/base_agent.png) for the high-level flow including:
 - Core agent components
 - External service integrations
 - Data flow paths

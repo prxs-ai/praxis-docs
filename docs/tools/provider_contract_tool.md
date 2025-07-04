@@ -56,9 +56,9 @@ poetry install
 
 ### C4 Context
 
-See [`provider_contract_tool.puml`](./images/diagrams/provider_contract_tool/provider_contract_tool.puml) for a high-level sequence:
+See [`provider_contract_tool.puml`](images/diagrams/provider_contract_tool/provider_contract_tool.puml) for a high-level sequence:
 
-![provider_contract_tool.png](./images/diagrams/provider_contract_tool/provider_contract_tool.png)
+![provider_contract_tool.png](images/diagrams/provider_contract_tool/provider_contract_tool.png)
 
 
 ### Ray Integration

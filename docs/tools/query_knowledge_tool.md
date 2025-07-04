@@ -54,9 +54,9 @@ export QUERY_KNOWLEDGE_TOOL_API_URL="http://custom-endpoint/knowledge/query"
 ## Architecture
 
 ### C4 Context
-See [`query_knowledge_tool.puml`](./images/diagrams/query_knowledge_tool/query_knowledge_tool.puml) for a high-level sequence:
+See [`query_knowledge_tool.puml`](images/diagrams/query_knowledge_tool/query_knowledge_tool.puml) for a high-level sequence:
 
-![query_knowledge_tool.png](./images/diagrams/query_knowledge_tool/query_knowledge_tool.png)
+![query_knowledge_tool.png](images/diagrams/query_knowledge_tool/query_knowledge_tool.png)
 
 ### Response Structure
 ```python

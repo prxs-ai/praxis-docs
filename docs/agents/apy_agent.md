@@ -69,7 +69,7 @@ APYAgent combines Telegram bot interface with DeFi analytics:
    - Timeliness checks
 
 ## Component Diagram
-See [`apy_agent_diagram`](./images/diagrams/apy_agent.png) showing:
+See [`apy_agent_diagram`](images/diagrams/apy_agent.png) showing:
 - Telegram user flow
 - Enso API integration
 - Data validation process

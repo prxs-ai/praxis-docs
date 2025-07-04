@@ -83,7 +83,7 @@ ray status
 The SolanaNewPairsBot is a distributed system that monitors Solana DEXs for new token pairs. It combines real-time data collection with automated alerting through Telegram, built on Ray Serve for horizontal scalability.
 
 ## Component Diagram
-See [`solana_new_pairs_agent`](./images/diagrams/solana_new_pairs_agent.png) for visualization of:
+See [`solana_new_pairs_agent`](images/diagrams/solana_new_pairs_agent.png) for visualization of:
 
 - Dextools API integration
 - Solana RPC connections  

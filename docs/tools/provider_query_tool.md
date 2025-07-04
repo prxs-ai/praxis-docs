@@ -55,9 +55,9 @@ poetry install
 ## Architecture
 
 ### C4 Context
-See [`provider_query_tool.puml`](./images/diagrams/provider_query_tool/provider_query_tool.puml) for a high-level sequence:
+See [`provider_query_tool.puml`](images/diagrams/provider_query_tool/provider_query_tool.puml) for a high-level sequence:
 
-![provider_query_tool.png](./images/diagrams/provider_query_tool/provider_query_tool.png)
+![provider_query_tool.png](images/diagrams/provider_query_tool/provider_query_tool.png)
 
 ### Ray Integration
 For distributed workflows:

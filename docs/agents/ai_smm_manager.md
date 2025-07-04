@@ -72,7 +72,7 @@ NewsAggregatorBot implements a content pipeline with:
    - Error handling
 
 ## Component Diagram
-See [`ai_smm_manager_diagram`](./images/diagrams/ai_smm_manager.png) for the high-level flow including:
+See [`ai_smm_manager_diagram`](images/diagrams/ai_smm_manager.png) for the high-level flow including:
 - Telegram interaction points
 - Content sources
 - Processing components

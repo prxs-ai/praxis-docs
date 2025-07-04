@@ -81,9 +81,9 @@ result = ray.get(main.remote({
 - Cluster-ready execution
 
 ### C4 Context
-See [`handoff_tool.puml`](./images/diagrams/handoff_tool/handoff_tool.puml) for a high-level sequence:
+See [`handoff_tool.puml`](images/diagrams/handoff_tool/handoff_tool.puml) for a high-level sequence:
 
-![handoff_tool.png](./images/diagrams/handoff_tool/handoff_tool.png)
+![handoff_tool.png](images/diagrams/handoff_tool/handoff_tool.png)
 
 
 ## Error Handling

@@ -75,7 +75,7 @@ TweetProcessor implements a content pipeline with:
    - Error-resilient publishing
 
 ## Component Diagram
-See [`ai_twitter_summary_diagram`](./images/diagrams/ai_twitter_summary.png) for the high-level flow including:
+See [`ai_twitter_summary_diagram`](images/diagrams/ai_twitter_summary.png) for the high-level flow including:
 - Ray distributed processing
 - Twitter API integration
 - OpenAI processing
