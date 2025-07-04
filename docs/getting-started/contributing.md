@@ -23,14 +23,14 @@ Each repository serves a specific purpose in the Praxis ecosystem. Choose the on
   
 
 🛠️ **Agent Template**
-**[praxis-agent-template](https://github.com/your-org/praxis-agent-template)**
+**[praxis-agent-template](https://github.com/prxs-ai/praxis-agent-template)**
 
 - Boilerplate code for new agents
 - Development tooling and CI
 - Template structure and examples
   
 
-🎯**[praxis-agent-examples](https://github.com/your-org/praxis-agent-examples)**
+🎯**[praxis-agent-examples](https://github.com/prxs-ai/praxis-agent-examples)**
 
 - Working agent implementations
 - Integration examples
@@ -242,7 +242,7 @@ We are committed to making participation in our project a harassment-free experi
 If you experience or witness unacceptable behavior, please report it to the project maintainers. All reports will be handled confidentially.
 
 
-**For the full Code of Conduct:** [CODE_OF_CONDUCT.md](https://github.com/your-org/praxis-docs/blob/main/CODE_OF_CONDUCT.md)
+**For the full Code of Conduct:** [CODE_OF_CONDUCT.md](https://github.com/prxs-ai/praxis-docs/blob/main/CODE_OF_CONDUCT.md)
 
 ---
 
