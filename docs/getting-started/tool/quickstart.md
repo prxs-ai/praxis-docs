@@ -28,9 +28,9 @@ cd example_tool
 pip install -e .
 ```
 
-{% hint style="info" %}
+
 Installing with `-e` enables editable mode so your code changes are immediately reflected.
-{% endhint %}
+
 
 ### 4. Run Tests
 
@@ -38,9 +38,9 @@ Installing with `-e` enables editable mode so your code changes are immediately 
 pytest
 ```
 
-{% hint style="success" %}
+
 **Done!** Your tool is now ready for development, fully compatible with Praxis's decentralized mesh network.
-{% endhint %}
+
 
 ## 🧪 Test Your Tool
 
@@ -156,13 +156,13 @@ pytest --cov=your_tool_name
 
 ## 🐳 What’s Different from Agents?
 
-{% hint style="info" %}
+
 **Tools vs Agents:**
 
 * **Tools** are focused, stateless, single-purpose functions designed for distributed execution with Ray.
 * **Agents** are stateful, complex entities that can orchestrate multiple tools, often running persistent services with Ray Serve.
 * Praxis tools integrate seamlessly into the decentralized mesh, enabling scalable AI workflows.
-  {% endhint %}
+  
 
 ## 💡 Example Tool Ideas
 
@@ -203,14 +203,14 @@ Features:
 
 ## 💡 Tips for Success
 
-{% hint style="success" %}
+
 
 * Keep tools focused on one responsibility
 * Use Pydantic and type hints for data validation
 * Write tests before deploying
 * Follow the template’s structure for consistency
 * Choose clear, descriptive names
-  {% endhint %}
+  
 
 ## 🆘 Getting Help
 

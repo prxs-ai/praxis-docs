@@ -26,9 +26,9 @@ git clone https://github.com/YOUR-USERNAME/currency-exchange-provider
 cd currency-exchange-provider
 ````
 
-{% hint style="info" %}
+
 The template includes linting, tests, CI/CD, and a minimal working provider to get you started fast.
-{% endhint %}
+
 
 ### 2. Install Dependencies
 
@@ -46,9 +46,9 @@ poetry install --with dev
 poetry run serve run src.example_provider.ray_entrypoint:app
 ```
 
-{% hint style="success" %}
+
 ✅ Your provider is now available at `http://localhost:8000`. It’s ready to expose tools to Praxis agents.
-{% endhint %}
+
 
 ---
 

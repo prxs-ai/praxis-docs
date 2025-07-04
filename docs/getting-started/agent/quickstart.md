@@ -26,9 +26,9 @@ poetry install
 docker-compose up redis -d
 ```
 
-{% hint style="info" %}
+
 Redis is used as a shared memory and pub/sub layer for agent state and coordination. You can run it via Docker or any preferred method.
-{% endhint %}
+
 
 ### 3. Launch Your Agent
 
@@ -36,9 +36,9 @@ Redis is used as a shared memory and pub/sub layer for agent state and coordinat
 OPENAI_API_KEY=your-key-here REDIS_HOST=localhost poetry run serve run entrypoint:app
 ```
 
-{% hint style="success" %}
+
 ✅ Your agent is now live at `http://localhost:8000` and ready to join the Praxis mesh.
-{% endhint %}
+
 
 ## 🧪 Test the Agent Interface
 
@@ -72,9 +72,9 @@ poetry run serve run entrypoint:app
 
 ## 🐳 Optional: Docker Build
 
-{% hint style="warning" %}
+
 For most development workflows, Docker is **not required**. Use the local setup for faster iteration.
-{% endhint %}
+
 
 If you prefer a containerized environment:
 

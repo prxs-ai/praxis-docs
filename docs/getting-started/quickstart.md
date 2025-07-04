@@ -65,6 +65,5 @@ Welcome to **Praxis**, the decentralized agent mesh network. This guide helps yo
 * **Use a Provider** to monetize compute or model endpoints
 * **Build Tools** to enrich agent capabilities with shared logic
 
-{% hint style="info" %}
+
 Need support or want to contribute? Join the community on Discord or explore the [Praxis GitHub](https://github.com/prxs-ai).
-{% endhint %}

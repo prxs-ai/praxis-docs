@@ -6,47 +6,46 @@ We welcome contributions to Praxis! Whether you're fixing bugs, adding features,
 
 Praxis consists of several repositories. Here are the key ones you might contribute to:
 
-{% hint style="info" %}
+
 **Core Repositories**
 
 Each repository serves a specific purpose in the Praxis ecosystem. Choose the one that matches your contribution goals.
-{% endhint %}
 
-{% tabs %}
-{% tab title="📖 Documentation" %}
-**[praxis-docs](https://github.com/your-org/praxis-docs)**
+
+
+📖 **Documentation**
+**[praxis-docs](https://github.com/prxs-ai/praxis-docs)**
 
 - Documentation site (docs.prxs.xyz)
 - Getting started guides
 - API documentation
 - Tutorials and examples
-  {% endtab %}
+  
 
-{% tab title="🛠️ Agent Template" %}
+🛠️ **Agent Template**
 **[praxis-agent-template](https://github.com/your-org/praxis-agent-template)**
 
 - Boilerplate code for new agents
 - Development tooling and CI
 - Template structure and examples
-  {% endtab %}
+  
 
-{% tab title="🎯 Agent Examples" %}
-**[praxis-agent-examples](https://github.com/your-org/praxis-agent-examples)**
+🎯**[praxis-agent-examples](https://github.com/your-org/praxis-agent-examples)**
 
 - Working agent implementations
 - Integration examples
 - Best practices demonstrations
-  {% endtab %}
+  
 
-{% tab title="🔧 Tool Template" %}
-**[praxis-tool-template](https://github.com/prxs-ai/praxis-tool-template)**
+
+🔧 **[praxis-tool-template](https://github.com/prxs-ai/praxis-tool-template)**
 
 - Boilerplate code for new tools
 - Ray integration and CI setup
 - Template structure and examples
 - Distributed execution patterns
-  {% endtab %}
-  {% endtabs %}
+  
+  
 
 ---
 
@@ -54,8 +53,8 @@ Each repository serves a specific purpose in the Praxis ecosystem. Choose the on
 
 ### 1. Choose What to Contribute
 
-{% tabs %}
-{% tab title="📝 Documentation" %}
+
+📝 **Documentation**
 **Perfect for:**
 
 - Fix typos or unclear instructions
@@ -64,9 +63,9 @@ Each repository serves a specific purpose in the Praxis ecosystem. Choose the on
 - Create video tutorials or demos
 
 **Skills needed:** Writing, Markdown, GitBook
-{% endtab %}
 
-{% tab title="🔧 Agent Template" %}
+
+🔧 **Agent Template**
 **Perfect for:**
 
 - Improve the template structure
@@ -75,9 +74,9 @@ Each repository serves a specific purpose in the Praxis ecosystem. Choose the on
 - Enhance CI/CD workflows
 
 **Skills needed:** Python, Ray Serve, DevOps
-{% endtab %}
 
-{% tab title="💡 Examples" %}
+
+💡 **Examples**
 **Perfect for:**
 
 - Create new example agents
@@ -86,8 +85,8 @@ Each repository serves a specific purpose in the Praxis ecosystem. Choose the on
 - Showcase advanced use cases
 
 **Skills needed:** Python, AI/ML, Domain expertise
-{% endtab %}
-{% endtabs %}
+
+
 
 ### 2. Development Setup
 
@@ -106,14 +105,14 @@ git checkout -b feature/your-feature-name
 
 ### 3. Making Changes
 
-{% hint style="success" %}
+
 **Quality Guidelines:**
 
 - Write clear, actionable content
 - Include working code examples
 - Test all instructions before submitting
 - Follow existing patterns and style
-  {% endhint %}
+  
 
 | Content Type            | Requirements                               |
 | ----------------------- | ------------------------------------------ |
@@ -132,14 +131,14 @@ git commit -m "feat: add new feature description"
 git push origin feature/your-feature-name
 ```
 
-{% hint style="info" %}
+
 **Create a Pull Request on GitHub with:**
 
 - Clear title and description
 - Reference to related issues
 - Screenshots if applicable
 - Test results or demo links
-  {% endhint %}
+  
 
 ---
 
@@ -147,9 +146,9 @@ git push origin feature/your-feature-name
 
 ### 📝 Commit Messages
 
-{% hint style="warning" %}
+
 Use conventional commit format for consistency:
-{% endhint %}
+
 
 | Type          | Usage            | Example                                     |
 | ------------- | ---------------- | ------------------------------------------- |
@@ -161,8 +160,8 @@ Use conventional commit format for consistency:
 
 ### 🧪 Code Quality
 
-{% tabs %}
-{% tab title="🔍 Testing" %}
+
+🔍 **Testing**
 
 ```bash
 # Run tests before submitting
@@ -172,9 +171,9 @@ poetry run pytest
 poetry run pytest --cov
 ```
 
-{% endtab %}
 
-{% tab title="✨ Linting" %}
+
+✨ **Linting**
 
 ```bash
 # Run code formatting
@@ -184,21 +183,21 @@ poetry run ruff format
 poetry run ruff check
 ```
 
-{% endtab %}
 
-{% tab title="🏷️ Type Checking" %}
+
+🏷️ **Type Checking**
 
 ```bash
 # Verify type hints
 poetry run mypy src/
 ```
 
-{% endtab %}
-{% endtabs %}
+
+
 
 ### 📖 Documentation Standards
 
-{% hint style="success" %}
+
 **Great documentation includes:**
 
 - Clear, actionable headings with emojis
@@ -206,7 +205,7 @@ poetry run mypy src/
 - Troubleshooting sections for common issues
 - Links to related documentation
 - Screenshots or diagrams where helpful
-  {% endhint %}
+  
 
 ---
 
@@ -214,9 +213,9 @@ poetry run mypy src/
 
 ### Our Commitment
 
-{% hint style="info" %}
+
 We are committed to making participation in our project a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
-{% endhint %}
+
 
 ### Expected Behavior
 
@@ -239,9 +238,9 @@ We are committed to making participation in our project a harassment-free experi
 
 ### Reporting Issues
 
-{% hint style="warning" %}
+
 If you experience or witness unacceptable behavior, please report it to the project maintainers. All reports will be handled confidentially.
-{% endhint %}
+
 
 **For the full Code of Conduct:** [CODE_OF_CONDUCT.md](https://github.com/your-org/praxis-docs/blob/main/CODE_OF_CONDUCT.md)
 
@@ -249,15 +248,14 @@ If you experience or witness unacceptable behavior, please report it to the proj
 
 ## 🆘 Getting Help
 
-{% tabs %}
-{% tab title="💬 Community" %}
+💬 **Community**
 
 - Check existing GitHub Discussions
 - Browse through resolved issues
 - Attend community calls
-  {% endtab %}
+  
 
-{% tab title="🐛 Bug Reports" %}
+🐛 **Bug Reports**
 **Include:**
 
 - Clear problem description
@@ -265,23 +263,23 @@ If you experience or witness unacceptable behavior, please report it to the proj
 - Expected vs actual behavior
 - Environment details
 - Relevant logs/errors
-  {% endtab %}
+  
 
-{% tab title="💡 Feature Requests" %}
+💡 **Feature Requests**
 **Include:**
 
 - Clear use case description
 - Value explanation
 - Implementation ideas
 - Alternative approaches
-  {% endtab %}
-  {% endtabs %}
+  
+  
 
 ---
 
 ## 🎉 Recognition
 
-{% hint style="success" %}
+
 **Contributors are recognized in:**
 
 - Project README files
@@ -289,6 +287,6 @@ If you experience or witness unacceptable behavior, please report it to the proj
 - Community showcases
 - Annual contributor reports
 - Special contributor badges
-  {% endhint %}
+  
 
 Thank you for helping make Praxis better! 🚀
