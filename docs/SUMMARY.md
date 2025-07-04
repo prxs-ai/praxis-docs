@@ -25,7 +25,7 @@
 
 ## Tokenomics
 
-* COMING SOON
+* [Tokenomics](core-concepts/tokenomics.md)
 
 ## RoadMap
 
@@ -78,7 +78,7 @@
 
 ## Providers
 
-* COMING SOON
+* [Provider](providers/provider.md)
 
 ## Services
 
