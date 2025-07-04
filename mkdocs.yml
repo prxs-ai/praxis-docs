@@ -51,6 +51,8 @@ nav:
       - Tools: core-concepts/tools.md
       - Workflows: core-concepts/workflows.md
       - Roadmap: core-concepts/roadmap.md
+  - Tokenomics:
+      - Tokenomics: core-concepts/tokenomics.md
   - Agents:
       - Base Agent: agents/base_agent.md
       - Example Agent: agents/example-agent.md
@@ -90,6 +92,8 @@ nav:
       - Redis Client: tools/redis_client.md
       - Return Answer Tool: tools/return_answer_tool.md
       - Save Knowledge Tool: tools/save-knowledge-tool.md
+  - Providers:
+      - COMING SOON: providers/provider.md
   - Services:
       - AI Registry:
           - Overview: services/ai-registry/overview.md
